@@ -1,2 +1,3 @@
 # HTML-and-CSS-projects
-Repo for HTML and CSS projects done on The Tech Academy
+In this repo, will be projects currently being worked on and completed,
+using HTML and CSS, from the Tech Academy bootcamp.
