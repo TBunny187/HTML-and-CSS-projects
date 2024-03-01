@@ -267,7 +267,8 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input[type="text"] {
+.reservation input[type="text"],
+.reservation input[type="tel"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
