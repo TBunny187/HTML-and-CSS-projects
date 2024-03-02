@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="./css/popup.css">
         <link rel="stylesheet" href="./css/shared.css">
         <link rel="stylesheet" href="./css/animations.css">
         <meta charset="UTF-8">
@@ -165,12 +166,9 @@
                     <div class="reservation">
                         <h2>
                             <span>Your adventure is just around the moon.</span><br>
-                            Reserve your flight today!
+                            <li onclick="openCloseForm()">Reserve your flight today!</li>
                         </h2>
-                        <p class="rsvp-text">
-                            Please provide us with your basic contact information.
-                        </p>
-                        <div class="form-rsvp">
+                        <!-- <div class="form-rsvp">
                             <form name="myForm" action="" method="post">
                                 <input class="rsvp" type="text" value="" placeholder="First Name">
                                 <input class="rsvp" type="text" value="" placeholder="Last Name">
@@ -183,12 +181,26 @@
                                     <input type="submit" value="Submit" onclick="validateForm()">
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </section>
         <!-- END RSVP -->
+
+        <!-- POPUP FORM -->
+        <div class="form-popup" id="myForm">
+            <form name="myForm" action="" method="post" class="form-container">
+                <input type="text" value="" placeholder="First Name">
+                <input type="text" value="" placeholder="Last Name">
+                <input type="text" value="" placeholder="Email Address">
+                <input name="number" type="tel" value="" placeholder="Phone Number">
+
+                <button type="button" class="btn" onclick="validateForm()">Submit</button>
+                <button type="button" class="btn cancel" onclick="openCloseForm()">Close</button>
+            </form>
+        </div>
+        <!-- END POPUP FORM -->
 
         <!-- FOOTER -->
         <div id="footer">

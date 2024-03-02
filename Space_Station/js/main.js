@@ -5,3 +5,13 @@ function validateForm() {
         return false;
     }
 }
+
+function openCloseForm() {
+    btnForm = document.querySelector('.form-popup').style;
+
+    if(btnForm.display) {
+        btnForm.display = '';
+    } else {
+        btnForm.display = 'block';
+    }
+}

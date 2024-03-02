@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.form-container input[type=text], .form-container input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Style for Submit button */
+.form-container .btn {
+    background-color: #04aa6d;
+    color: #fff;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: .8;
+}
+
+.form-container .cancel {
+    background-color: #f00;
+}
+
+.form-container .btn:hover {
+    opacity: 1;
+}

@@ -252,7 +252,7 @@ section {
     margin: 0 auto;
 }
 
-.reservation form {
+/* .reservation form {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -265,9 +265,9 @@ section {
     background: rgb(227, 222, 222);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, .3);
     font-family: 'Raleway', sans-serif;
-}
+} */
 
-.reservation input[type="text"],
+/* .reservation input[type="text"],
 .reservation input[type="tel"] {
     font-size: 15px;
     outline: none;
@@ -292,9 +292,9 @@ section {
 
 .reservation input[type="text"]:focus {
     box-shadow: 0 0 18px #f90;
-}
+} */
 
-.form-spacer {
+/* .form-spacer {
     padding: 30px 39px;
 }
 
@@ -340,7 +340,7 @@ section {
     color: #000;
     background-color: #8d8e8f;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, .5);
-}
+} */
 
 /* FOOTER STYLES */
 
