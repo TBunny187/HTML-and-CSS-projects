@@ -8,10 +8,13 @@ function validateForm() {
 
 function openCloseForm() {
     btnForm = document.querySelector('.form-popup').style;
+    btnClass = document.querySelector('.form-popup');
 
-    if(btnForm.display) {
-        btnForm.display = '';
-    } else {
-        btnForm.display = 'block';
-    }
+    btnClass.classList.toggle('show-form');
+
+    // if(btnForm.display) {
+    //     btnForm.display = '';
+    // } else {
+    //     btnForm.display = 'block';
+    // }
 }

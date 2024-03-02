@@ -11,6 +11,16 @@
     z-index: 9;
 }
 
+.show-form {
+    display: block;
+    animation: mymove 1s
+}
+
+@keyframes mymove {
+    from {right: -300px;}
+    to {right: 15px;}
+}
+
 .form-container {
     max-width: 300px;
     padding: 10px;
