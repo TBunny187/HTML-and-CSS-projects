@@ -12,7 +12,7 @@
 }
 
 /* .menu  */
-li {
+li, .stickyBtn {
     color: #000;
     background-color: rgba(255, 255, 255, 1);
     display: inline-block;
@@ -31,9 +31,21 @@ li {
 }
 
 /* .menu  */
-li:hover {
+li:hover, .stickyBtn:hover {
     color: #f00;
     background-color: rgba(100, 65, 0, .3);
+}
+
+.stickyBtn {
+    position: sticky;
+    bottom: 100px;
+    right: 35px;
+    float: right;
+    font: bold 12px/18px sans-serif;
+}
+
+.stickyBtn:hover {
+    color: #00f;
 }
 
 /* GALLERY SECTION ANIMATION */
